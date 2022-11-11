@@ -940,6 +940,8 @@ table#detailprofil {
     padding: 8px;
     text-align: center;
     border-bottom: 1px solid #ddd;
+    background-color: #57aeee;
+    color: white;
     font-family: 'Rubik', sans-serif;
     font-size: 14px;
 }

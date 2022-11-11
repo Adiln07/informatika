@@ -197,7 +197,7 @@
 															</tr>
 <?php if(count($penelitian) == 0){ ?>
 														<tr>
-															<th width="100%" class="text-center">Tidak Ada Penelitian</td>
+															<td width="100%" class="text-center">Tidak Ada Penelitian</td>
 														</tr>
 <?php } else{
 	foreach ($penelitian as $penelitian) {
@@ -227,7 +227,7 @@
 													</tr>
 <?php if(count($pengabdian) == 0){ ?>
 													<tr>
-														<th width="100%" class="text-center">Tidak ada Pengabdian</td>
+														<td colspan="2" width="100%" class="text-center">Tidak ada Pengabdian</td>
 													</tr>
 <?php } else{
 	foreach ($pengabdian as $pengabdian) {
