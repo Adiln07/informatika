@@ -1128,3 +1128,205 @@ table#detailprofil {
     border-color: #063556;
 }
 /* end css tambahan */
+
+/* css tambahan chindy */
+
+body.lab_page {
+    padding: 32px 95px 50px 95px;
+}
+
+.namaLab{
+    font-size: 3.5em;
+    margin-bottom: .2em;
+    text-align: center;
+}
+.carousel-item img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+#carouselExampleIndicators {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+
+    background-color: #1B9CC6;
+    padding: 35px;
+    border-radius: 22px;
+
+    position: relative;
+}
+
+#carouselExampleIndicators .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #61FFA7;
+}
+
+#carouselExampleIndicators .carousel-indicators button:not(.active) {
+    background-color: white;
+    opacity: 1;
+}
+
+#carouselExampleIndicators .carousel-indicators {
+    margin-bottom: 2.5px;
+}
+
+button.carousel-control-prev,
+button.carousel-control-next {
+    width: min-content;
+    opacity: 1;
+    font-weight: bold;
+}
+
+.lab-description {
+    width: 60em;
+    text-align: justify;
+    margin: 30px auto;
+}
+
+.lab-description p,
+li {
+    font-family: "Source Serif 4";
+    color: black;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.lab-description .judul-deskripsi {
+    font-family: Lexend;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: black;
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+
+.lab-description ul {
+    padding-left: 20px;
+}
+
+.lab-members {
+    width: 70em;
+    background-color: white;
+    box-shadow: 0px 0px 5px #AFAFAF;
+    border-radius: 17px;
+    padding: 20px;
+
+    margin: 60px auto;
+}
+
+.lab-members * {
+    text-align: center;
+}
+
+.lab-members h3 {
+    font-family: Lexend;
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 20px;
+    color: #016699;
+}
+
+.lab-members .member-lab h3 {
+    color: #32c7bd;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.lab-members .nama-dosen {
+    font-family: Lexend;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: black;
+    margin-top: 4px;
+}
+
+.lab-members img {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.lab-members .baris-member {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*--------------------- MEDIA QUERIES ---------------------*/
+
+
+@media (max-width: 56em) {
+    body.lab_page {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 40em) {
+    body.lab_page {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    h1.namaLab {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    .carousel-item img {
+        height: 400px;
+    }
+
+    #carouselExampleIndicators {
+        padding: 30px;
+    }
+
+    #carouselExampleIndicators .carousel-indicators {
+        margin-bottom: 0px;
+    }
+
+    .lab-description {
+        margin-top: 15px;
+    }
+
+    .lab-description p,
+    li {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .lab-description .judul-deskripsi {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+
+    .lab-members {
+        padding: 10px;
+    }
+
+    .lab-members .member-lab img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .lab-members h3 {
+        font-size: 16px;
+    }
+
+    .lab-members .nama-dosen {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .lab-members .baris-member {
+        justify-content: space-between;
+    }
+}
+/* end chindy */
